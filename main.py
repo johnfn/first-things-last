@@ -242,7 +242,7 @@ class Game:
             pygame.display.flip()
 
 
-firstmap = Map("C:\level1.txt")
+firstmap = Map("levels\level1.txt")
 main = Game(firstmap)
 
 main.gameloop()
