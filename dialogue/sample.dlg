@@ -1,0 +1,17 @@
+#The real dialog files will have names corresponding to the map they are related to.
+# For instance, if someone is taking on a map named "level6", the dialog will be named "level6.dlg".
+
+#Each person will be labelled from 1 upwards. We order people in the following way:
+
+# id = 0
+# for each row in rows:
+#    for each col in cols:
+#        if (row, col) == person:
+#           person.id = id++
+
+
+Dialog 1:
+
+1: Grant: Am I <red>awesome</red> or what? (Yes:2, No:3)
+2: Grant: I'm..<wait=300>. glad you agree.
+3: Grant: I guess that means you must die now.
